@@ -10,7 +10,7 @@
     background-color: #0f1111;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    
 
 }
 .navlogo{
@@ -34,7 +34,7 @@
 }
 .nav-adress{
     color: whitesmoke;
-}
+margin-left: 15px;}
 .add-first{
     color: #cccc;
     font-size: 12px;
@@ -56,7 +56,7 @@ background-color: pink;
 justify-content: center;
 height: 40px;
 width: 620px;
-
+margin-left: 55px;
 border-radius: 4px;
 }
 .search-select{
@@ -93,10 +93,12 @@ border-radius: 4px;
     color: white;
     font-size: 14px;
     margin-top: 19px;
+    margin-left: 4%;
  }
  .nav-sign{
     color: white;
     font-weight: 700;
+    margin-left: 15px;
  }
 span{
     font-size: 0.7rem;
@@ -106,6 +108,7 @@ span{
 }
 .navreturn{
     color: white;
+    margin: 15px;
 }
 .navsearch:hover{
     border: 2px solid orange;
@@ -113,7 +116,7 @@ span{
 .navcart{
     color: white;
     display: flex;
-}
+margin-left: 20px;}
 .navcart i{
  font-size: 30px;
  font-weight: 600;
@@ -122,4 +125,46 @@ span{
 .font{
     font-size: 20px;
 
+}
+.pannel{
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;   
+    color: whitesmoke;
+}
+.pannel-all{
+    padding: 3px;
+}
+.pannelop{
+    display: flex;
+    font-size: 0.85rem;
+    width: 80%;
+}
+.pannelop p{
+    margin-left: 15px;
+    padding: 2px;
+}
+.
+.shop-deals{
+    font-size: 1rem;
+}
+.hero-sec{
+    background-image: url("hero_image.jpg");
+    height: 600px;
+    background-size: cover;
+}
+.hero-add{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.hero-add a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
